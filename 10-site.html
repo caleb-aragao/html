@@ -113,7 +113,39 @@
     </section>
     <!--Seção Contato-->
     <section id="contato">
-        Seção Contato
+        <h2>Fale Conosco</h2>
+        <p>
+            Tem dúvidas sobre algum instrumento? Entre em contato com a nossa equipe ou venha nos visitar.
+        </p>
+        <address>
+            <p>
+                <strong>Loja Física: </strong>Jardim Itália, Cuiabá - MT
+            </p>
+        </address>
+        <form action="#">
+            <label for="nome">Nome Completo:</label>
+            <br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"required>
+            <br><br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail"required>
+            <br><br>
+            <label for="departamento">Departamento</label>
+            <br>
+            <select name="departamento" id="departamento">
+                <option value="vendas">vendas</option>
+                <option value="suporte">Suporte Técnico</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="susgestão">Sugestões</option>
+            </select>
+            <br><br>
+            <label for="mensagem">Mensagem</label>
+            <br>
+            <textarea name="mensagem" id="mensagem" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
     </section>
  </main>
 
